@@ -7,10 +7,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## STACK
 
-Language: Typescript
-Frameworks: ReactJs, TailwindCSS
-State management: RTK, RTK Query
-Libraries: Axios
+Language: Typescript  
+Frameworks: ReactJs, TailwindCSS  
+State management: RTK, RTK Query  
+Libraries: Axios  
 
 ## Available Scripts
 
