@@ -18,38 +18,6 @@ function App() {
     dispatch(fetchContacts());
   }, []);
 
-  // const handleCreate = async () => {
-  //   if ((!name && !lastName) || !email) {
-  //     toast.error("Please fill all fields");
-  //     return;
-  //   }
-
-  //   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  //   if (!emailRegex.test(email)) {
-  //     toast.error("Invalid email");
-  //     return;
-  //   }
-
-  //   const contact = {
-  //     record_type: "person",
-  //     privacy: {
-  //       edit: null,
-  //       read: null,
-  //     },
-  //     owner_id: null,
-
-  //     fields: {
-  //       "first name": [{ value: name, modifier: "", label: "first name" }],
-  //       "last name": [{ value: lastName, modifier: "", label: "last name" }],
-  //       email: [{ value: email, modifier: "", label: "email" }],
-  //     },
-  //   };
-
-  //   const action = await createContact(contact);
-  //   dispatch(action);
-  //   toast.success("Contact created");
-  // };
-
   const handleDelete = async (id: string) => {
     const action = await deleteContact(id);
     dispatch(action);

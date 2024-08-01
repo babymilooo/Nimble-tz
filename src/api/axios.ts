@@ -1,8 +1,8 @@
 import axios from "axios";
-const url = `/api/v1`;
+const url = `https://cors-anywhere.herokuapp.com/https://live.devnimble.com/api/v1`;
 
 export const $api = axios.create({
-  withCredentials: true,
+  // withCredentials: true,
   baseURL: url,
   headers: {
     "Content-Type": "application/json",
