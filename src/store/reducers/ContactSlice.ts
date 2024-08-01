@@ -50,7 +50,8 @@ export const contactSlice = createSlice({
         deleteContactFailure: (state, action) => {
             state.error = action.payload;
             state.isLoading = false;
-        }
+        },
+        
     }
 
 

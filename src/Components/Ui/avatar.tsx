@@ -41,8 +41,8 @@ const AvatarFallback = React.forwardRef<
       className
     )}
     style={{
-      objectFit: "cover", // Заполнение контейнера без искажений
-      objectPosition: "center", // Позиционирование изображения по центру
+      objectFit: "cover",
+      objectPosition: "center",
     }}
     {...props}
   />

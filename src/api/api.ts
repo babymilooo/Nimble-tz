@@ -66,3 +66,21 @@ export const deleteContact =
       }
     }
   };
+
+export const getContact = async (id: string) => {
+  try {
+    const response = await $api.get(`/contact/${id}`);
+    return response.data.resources;
+  } catch (error) {
+    console.error("Error fetching contact:", error);
+  }
+};
+
+export const addTag = async (id: string, tags: any) => {
+  try {
+    const response = await $api.put(`/contacts/${id}/tags`, tags );
+    return response.data;
+  } catch (error) {
+    console.error("Error adding tag:", error);
+  }
+};

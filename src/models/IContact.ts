@@ -3,25 +3,19 @@ interface Itags {
   id: string;
 }
 
+interface IField {
+  value: string;
+  modifier: string;
+  label: string;
+}
+
 export interface IContact {
   id: string;
   avatar_url: string;
   fields: {
-    "first name": {
-        value: string;
-        modifier: string;
-        label: string;
-    };
-    "last name": {
-        value: string;
-        modifier: string;
-        label: string;
-    };
-    email: {
-        value: string;
-        modifier: string;
-        label: string;
-    };
+    "first name": IField[];
+    "last name": IField[];
+    email: IField[];
   };
   tags: Itags[];
 }
