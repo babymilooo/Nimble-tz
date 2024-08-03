@@ -2,6 +2,8 @@
 
 #### Check this project on https://babymilooo.github.io/Nimble-tz/
 
+#### (If deploy version is not worked, go to the site https://cors-anywhere.herokuapp.com/ and click on the "Request temporary access to the demo server" button)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
