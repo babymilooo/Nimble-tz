@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Nimble-tz/static/css/main.960996a1.css",
-    "main.js": "/Nimble-tz/static/js/main.da5387d7.js",
+    "main.css": "/Nimble-tz/static/css/main.d6845f82.css",
+    "main.js": "/Nimble-tz/static/js/main.1037cd5a.js",
     "index.html": "/Nimble-tz/index.html",
-    "main.960996a1.css.map": "/Nimble-tz/static/css/main.960996a1.css.map",
-    "main.da5387d7.js.map": "/Nimble-tz/static/js/main.da5387d7.js.map"
+    "main.d6845f82.css.map": "/Nimble-tz/static/css/main.d6845f82.css.map",
+    "main.1037cd5a.js.map": "/Nimble-tz/static/js/main.1037cd5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.960996a1.css",
-    "static/js/main.da5387d7.js"
+    "static/css/main.d6845f82.css",
+    "static/js/main.1037cd5a.js"
   ]
 }
