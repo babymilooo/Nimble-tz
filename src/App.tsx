@@ -82,7 +82,7 @@ function App() {
             </div>
           ))}
         </div>
-        <div className="md:flex hidden ">
+        <div className="md:flex hidden sticky top-0">
           <CreateNew />
         </div>
       </div>

@@ -47,7 +47,7 @@ export function CreateNew() {
   };
 
   return (
-    <div className="xl:w-[400px] md:w-[300px]   w-full m-2 border flex flex-col items-center sticky top-2 rounded-lg select-none">
+    <div className="xl:w-[400px] md:w-[300px]   w-full m-2 border flex flex-col items-center rounded-lg select-none">
       <h1 className="text-3xl font-bold w-full p-4 py-8 text-center">
         Create new
       </h1>
